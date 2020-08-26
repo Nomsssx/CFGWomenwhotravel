@@ -1,0 +1,162 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 50%;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin-top: 0px;
+      margin-left: 10px;
+      margin-bottom: 0px;
+      margin-right: 10px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li {
+      float: right;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 18px;
+      text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      background-color: #111;
+  }
+  
+   .activee {
+      background-color: #87CEFA;
+  }
+
+  h1 {
+      font-family: monospace;
+      text-align: center;
+  }
+  
+  p {
+      color: #454442;
+      font-size: 20px;
+      font-weight: 100;
+      text-align: left;
+      font-family: sans-serif;
+      margin: 20px;
+  }
+
+  .itinerary {
+      font-family: monospace;
+      color: #333;
+      text-align: center;
+  }
+
+.container {
+    max-width: 100%;
+    margin-left: 0px 0px;
+}
+
+.Temple {
+    font-family: sans-serif;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.daytext {
+    font-size: xx-large;
+    color: blue;
+    font-family: monospace;
+}
+
+.h5 {
+    font-family: monospace;
+    font-size: x-large;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.PADANGBAI {
+    font-family: sans-serif;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.COOKINGCLASS {
+    font-family: sans-serif;
+    text-align: right;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.MENJANGAN {
+    font-family: sans-serif;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.NIGHTMARKET {
+    font-family: sans-serif;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+

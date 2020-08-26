@@ -1,0 +1,72 @@
+header {
+    padding-right: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #a19c9c;
+    display: inline;
+}
+
+.main {
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+
+
+
+.body {
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+}
+
+p {
+    margin: 35px;
+}
+
+.justify-content-end {
+    display: inline;
+    color: #000000;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+form {
+    border: 1px solid #ccc; 
+}
+
+.container {
+    padding: 10px;
+    background-color:#ccc;
+    margin: 35px;
+}
+
+input[type=text], input[type=submit] {
+width: 100%;
+padding: 12px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: #828282;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}

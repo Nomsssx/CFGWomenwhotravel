@@ -1,0 +1,484 @@
+    <!DOCTYPE html>
+<html>
+<title>Blog Posts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="BlogCSS.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+body {margin:0px;height:2000px;}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    background: white;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="https://en-gb.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/?lang=en-gb" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi0997eu7TrAhU0rHEKHVhxCsAQPAgH" class="google"><i class="fa fa-google"></i></a> 
+  <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+    <div>
+     <body>
+      <img src="logo.jpg" alt="logo" class="logo" style="width:40%">
+
+
+        <ul>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="blog.html">Blog posts</a></li>
+        <li><a href="Destination.html">Destinations</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        <li style="float:left"><a class="activee" href="index.html">Home</a></li>
+      </ul>
+    </body>
+    </div>
+    
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+
+li {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: pink;
+}
+
+ .activee {
+    background-color: whitesmoke;
+}
+</style>
+<body class="w3-white">
+
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1150px">
+
+  <!-- Header -->
+  
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="blog2.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>TRAVEL BLOGS</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+    <style>
+        p {
+        font-size: 15px;
+        }
+        h3,h4 {
+            font-size: 19px;
+        }
+    
+    </style>
+    
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-light-grey w3-margin w3-padding-large">
+        <div class="w3-center">
+            <h3>FIVE INCREDIBLE THINGS TO DO IN EDINBURGH, SCOTLAND</h3>
+          <h5><span class="w3-tag"> By Nomi Dibidi </span> <span class="w3-opacity">August 24, 2020</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="scotland.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p class="maintext"><strong>Truly Unforgettable!</strong> After visiting Edinburgh for a five of weeks, we can confidently say it is one of the most vibrant cities in the Europe. Edinburgh is a city filled with a little bit of everything. The capital has so much history, bags of culture and incredible places to see. I have noted down some of the ‘must-sees’ when you visit..</p>
+            
+               <div class="text1">
+        <h3><b>Hike up Arthur’s seat</b></h3>
+                   <p class="maintext">Edinburgh is not only a <u>quant old town filled with cosy pubs!</u> For those who enjoy hiking, spending time outdoors and getting some physical exercise will be delighted to visit the Arthur’s Seat, located in the Holyrood Park. The hike usually lasts around 30 minutes to complete. But trust me it’s worth it when you get to the top. Arthur’s Seat is a great location for the views of Edinburgh.</p>
+            
+            <p class="maintext"><strong>Hiking Tip:</strong> Regardless of what the weather may seem like when you begin your hike, make sure to bring a cardigan or jumper with you just in case. Scottish weather is very unpredictable. 
+             </p>
+            </div>
+          
+
+        <div class="text2">
+            <h3><b>Walk the Water of Leith</b></h3>
+            <p class="maintext">If you’re seeking a peaceful escape from the city, you only need to go about a mile from the Royal Mile to find the <i>Water of Leith Walkway</i>i. This is a 12-mile route running alongside the waterside with statues, bridges and lots of greenery along the way. The full route covers a long stretch filled with captivating views in Stockbridge and Dean Village.
+        <br>
+        </div>
+
+        <div class="text3">
+            <h3><b>Edinburgh's Secret Garden</b></h3>
+            <p class="maintext"><b>Dr Neil’s Garden</b>b is one of Scotland’s most remarkable gardens. Finding Edinburgh’s secret garden is something of an adventure in itself. Nestled away behind a 12th century church in the picturesque village of Duddingston.(More text). 
+        <br>
+            </p>
+        </div>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="linda.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Linda <span class="w3-opacity w3-medium">June 29, 200, 2:50 PM</span></h4>
+                <p class="replies">I am super happy I came across your blog, I've been looking for a holiday destination that wouldn't require that I leave the country. Great blog post! Following!</p>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+      <hr>
+<style>
+    .replies {
+    float: left;
+    text-align: left;
+    }  
+    
+    .maintext {
+    float: left;
+    text-align: left;
+    }  
+    
+</style>
+      <!-- Blog entry -->
+      <div class="w3-container w3-light-grey w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>6 REASONS WHY MALAYSIA WILL TRIGGER YOUR WANDERLUST</h3>
+          <h5><span class="w3-tag"> By Sarah Acheampong</span> <span class="w3-opacity">May 21, 2020</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="malaysia.jpg" alt="Malaysia" style="width:100%" class="w3-padding-16">
+          <p class="maintext"><strong>As they say, Malaysia is Truly Asia. </strong> This is one country where you can set foot and get to experience the best of what Asia has on offer. A multicultural country, Malaysia gives you a glimpse of the heritage of Chinese, Indians, Sri Lanka and other Asian countries as well. In terms of landscape, this country allures with beaches, hills and even glistening cityscapes like that of Kuala Lumpur. It has its arms open wide to greet travellers from across the world, serving them delicious food, pampering them with a buzzing shopping scenario and traditional spas. I recently returned home from my trip to Malaysia and I am looking forward to booking my ticket back!</p>
+        
+          <div class="text1">
+        <h3><b>1. Luxury on a budget</b></h3>
+              <p class="maintext">Whether you’re on a <u>shoestring budget or are looking for a splurging vacation</u>, Malaysia will please you! You can choose to stay in a welcoming hostel or pick a luxury hotel with all the modern amenities. Most of the tourist attractions and sites are very reasonably priced so you wouldn't have to worry about going bankrupt. Malaysia provides you with the ability to explore the depths of it's landscape whilst also saving a lot of money. I still have a few ringgit's (malaysian currency) left ready to exchange back!</p>
+        
+            </div>
+          
+
+        <div class="text2">
+            <h3><b>2. Stunning Beach Getaways</b></h3>
+            <p class="maintext">You haven’t truly visited Malaysia until you have seen <u>the beauty that Langkawi is</u>. There are a variety of archipelagos here in Malaysia, which honestly will put even the Bahamas to shame. You will agree too! .
+        <br>
+        </div>
+
+        <div class="text3">
+            <h3><b>3. Rainforests</b></h3>
+            <p class="maintext"><u>I don’t think I need to continue listing reasons to visit Malaysia once we realise how affluent Malaysia is</u> in terms of nature and wildlife as well. Almost two-third of this country is covered in rainforests, serving as a habitat to twenty percent of world’s animal species. 
+                <br><br>
+
+        <b>Best places in Malaysia for nature and wildlife</b>: Taman Negara National Park, Kinabalu National Park, and Gunung Mulu National Park
+        <br>
+            </p>
+        </div>
+            
+            <div class="text3">
+            <h3><b>4. Myriad of adventure and activities</b></h3>
+            <p class="maintext">This country understands that travel is not limited to sightseeing, so it spoils you with choices of activities. You could be a beginner or an expert, there still be a long list. Ranging from sky diving and scuba diving to witnessing the enchantment of marine life, the choice is yours.
+        </p>
+        <br>
+        </div>
+            
+             <div class="text3">
+            <h3><b>5. Food Coma</b></h3>
+                 <p class="maintext">It’s said if you don’t let yourself indulge in the street food of Malaysia, <u>your trip isn’t really complete</u>. Here, you get to titillate your taste buds with a delicious blend of flavours and spices. This is where you get to relish the best of noodles, rice, soup and what not!
+        </p>
+        <br>
+        </div>
+            
+             <div class="text3">
+            <h3><b>6. Favorable Weather</b></h3>
+            <p class="maintext">The country experiences favorable weather conditions almost all around the year. Thanks to its huge size, you can always pick the best for yourself regardless of when you are traveling. As most part of the country is covered in rainforest, you will indeed enjoy pleasant weather.
+        </p>
+        <br>
+        </div>
+            
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="amber.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">May 21, 2020, 10:52 am</span></h4>
+                <p class="replies">Love! Love! Love! I recently went on the Iceland trip which was great! I am literally exhilaratd and buzzing about Malaysia! I can't wait to visit next spring.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="catherine.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Catherine <span class="w3-opacity w3-medium">May 23, 2020, 9:12 PM</span></h4>
+                <p class="replies">Love your blog page! Simply the best! Following and subscribed!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        <hr>
+      <!-- Blog entry -->
+      <div class="w3-container w3-light-grey w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>12 STRAIGHT-TO-THE-POINT REASONS WHY YOU MUST VISIT AUSTRALIA</h3>
+          <h5><span class="w3-tag"> By Anastasia Sviridova</span>  <span class="w3-opacity">March 7, 2020</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="australia.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+            <p class="maintext"><strong>Once you’ll be in, you’ll never want to leave!</strong> There’s no doubt Australia is one of the most remote, fascinating, and highly developed countries in the world. With so many good reasons to visit Australia, like its diverse landscapes, friendly locals and a long list of amazing ‘bucket list’ experiences, it’s clear why so many backpackers head here first including MYSELF!
+<br><br>
+Endowed with a myriad of natural wonders, plenty of wildlife, dazzling beaches, cosmopolitan metropolises, and large expanses of the outback, it’s easy to see why this captivating country is such a complete travel destination. It not only matches every taste, budget, age, or interest out there, but it also delivers some unique experiences almost impossible to find somewhere else. Australia is so much more than just a paradise for adventure seekers, it is a delight for foodies, art lovers, and budget travellers.
+ </p>
+          <div class="text3">
+            <h3><b>Lets get into it!</b></h3>
+            <p class="maintext">1. The very existence of Goon ensures that you can drink every single day and still keep within your budget <br>
+2. There are 11,000 beaches to choose from!  <br>
+3. You have over 500 National Parks in Australia to explore  <br>
+4. You can Snorkel or Scuba Dive in the world's largest living organism <u>- the Great Barrier Reef </u> <br>
+5. And snorkel alongside the gigantic Whale Sharks in Ningaloo Reef <br>
+6. …Or the playful Sea Lions in Port Lincoln <br>
+7. It is home to Whitehaven Beach in the Whitsunday Islands, which is continuously voted in the Top 10 World's Best Beaches lists
+8. You can climb the highest rock in the world in Western Australia - Mt Augustus <br>
+9. You can eat Avocados every day, with almost everything and not get frowned upon <br>
+10. You can drink everyday of the week, at anytime of the day and not get frowned upon <br>
+11. You can eat the country's national emblems and not get frowned upon - <i>the Emu and Kangaroo!</i><br>
+12. You can find $4.95 Dominos pizza in most parts of Australia </p>
+                <br>
+                <pre></pre>
+              <pre></pre>
+              <br>
+              <br>
+              <br>
+
+
+              
+        <br>
+            </div>
+            <br><br><br>
+            <hr>
+            
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="jane.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">March 10, 2020, 7:22 PM</span></h4>
+                <p class="replies">That was a great breakdown! Thank you Anastasia!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="michelle.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Michelle <span class="w3-opacity w3-medium">MArch 8, 2020, 10:32 PM</span></h4>
+                <p class="replies">Keep up the GREAT work! You have a new subbie!! Could you do a post about packing essentials on holiday? NEEDED!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="anja.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">March 7, 2020, 9:12 PM</span></h4>
+                <p class="replies">This is my first solo travel, I am nervously excited! Haha the $4.95 pizza is calling my name!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+  
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-light-grey">
+          <h4 style="color: black">Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Solo travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Women</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Break</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Relax</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trvael</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beach</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">UK</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Foodie</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tourism</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Adventure</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+    
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-light-grey">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p class="subscribe">Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join our mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+    </body>
+    <body>
+    
+<footer class="w3-container w3-padding-64 w3-grey w3-center w3-opacity w3-xlarge" style="margin-top:0px"> 
+  <p class="w3-large" style="color: black">Powered by <a href="index.html" target="_blank" class="w3-hover-text-green"><strong>Women Travelling the World 2020©</strong></a></p>
+</footer>
+
+<style>
+    .powered {
+        float: right;
+        text-align: center;
+    }    
+</style>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+    </body>
+</body>
+</html>
